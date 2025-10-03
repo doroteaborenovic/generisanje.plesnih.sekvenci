@@ -1,3 +1,4 @@
+(eng):
 Dance Movement Sequence Generation for Musical Theatre and Classical Ballet using Markov Chains
 
 The goal of this project was to develop a system that automatically generates realistic and aesthetically 
@@ -13,7 +14,7 @@ The repository also contains video clips of the individual dance elements. The v
 (e.g., grandplie.mp4) directly correspond to the names of the states ("movements") defined in the JSON matrices, which allows for their easy mapping.
 The system was developed using a subset of the publicly available AIST++ database.
 
-
+(hu):
 Musical színházi és klasszikus balett tánc-szekvenciák generálása Markov-láncok segítségével
 
 A projekt célja egy olyan rendszer kifejlesztése volt, amely automatikusan generál valósághű és esztétikailag megfelelő 
