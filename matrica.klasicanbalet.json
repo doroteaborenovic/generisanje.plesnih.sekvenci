@@ -1,0 +1,91 @@
+{
+  "alasekondumestu": {
+    "glisatsapovlacenjem": 0.05,
+    "grandplie": 0.05,
+    "pripremazapiruetu": 0.1
+  },
+  "fuetesakrajem": {
+    "alasekondumestu": 0.1,
+    "glisatsapovlacenjem": 0.1,
+    "padesa": 0.1,
+    "grandplie": 0.1,
+    "okretizcoska": 0.1,
+    "turljanukrug": 0.1,
+    "pripremazapiruetu ": 0.2
+  },
+  "pripremazapiruetu": {
+    "grandplie": 0.1,
+    "batman": 0.1,
+    "padesa": 0.1,
+    "glisatsapovlacenjem": 0.1
+  },
+  "cetvrtapozicija": {
+    "alasekondumestu": 0.1,
+    "fuetesakrajem": 0.1,
+    "okretizcoska": 0.1,
+    "turljanukrug": 0.1,
+    "pripremazapiruetu ": 0.1,
+    "grandplie": 0.1,
+    "batman": 0.2,
+    "asomble": 0.2
+  },
+  "grandplie": {
+    "asomble": 0.25,
+    "batman": 0.25,
+    "pripremazapiruetu": 0.25,
+    "glisatsapovlacenjem": 0.25,
+    "okretizcoska": 0.25
+  },
+  "batman": {
+    "grandplie": 0.25,
+    "pripremazapiruetu": 0.25,
+    "asomble": 0.25,
+    "padesa": 0.25,
+    "okretizcoska": 0.25,
+    "sote": 0.25,
+    "cetvrtapozicija": 0.25,
+    "glisatsapovlacenjem": 0.25,
+    "pozesarukama": 0.25
+  },
+  "asomble": {
+    "padesa": 0.2,
+    "okretizcoska": 0.2,
+    "batman": 0.2,
+    "grandplie": 0.2,
+    "pripremapiruetu": 0.2,
+    "glisatsapovlacenjem": 0.2,
+    "pozesarukama": 0.2,
+    "cetvrtapozicija": 0.2
+  },
+  "duzapripremazajazzpiruetu": {
+    "alasekondumestu": 0.1,
+    "fuetesakrajem": 0.1,
+    "okretizcoska": 0.1,
+    "turljanukrug": 0.1
+  },
+  "pozesarukama": {
+    "fuetesakrajem": 0.1,
+    "okretizcoska": 0.1,
+    "turljanukrug": 0.1,
+    "cetvrtapozicija": 0.1
+  },
+  "sote": {
+    "grandplie": 0.1,
+    "padesa": 0.1,
+    "okretizcoska": 0.1,
+    "pripremapiruetu": 0.1,
+    "glisatsapovlacenjem": 0.1,
+    "cetvrtapozicija": 0.1,
+    "batman": 0.1
+  },
+  "prvipordebra": {
+    "grandplie": 0.1,
+    "padesa": 0.1,
+    "okretizcoska": 0.1,
+    "pripremapiruetu": 0.1,
+    "glisatsapovlacenjem": 0.1,
+    "cetvrtapozicija": 0.1,
+    "sote": 0.1,
+    "batman": 0.1
+  }
+}
