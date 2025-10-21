@@ -12,7 +12,7 @@ The repository contains two matrices that define the transition probabilities be
   
 The repository also contains video clips of the individual dance elements. The video filenames
 (e.g., grandplie.mp4) directly correspond to the names of the states ("movements") defined in the JSON matrices, which allows for their easy mapping.
-The system was developed using a subset of the publicly available AIST++ database.
+The system was developed using a subset of the publicly available AIST++ dataset.
 
 (hu):
 Musical színházi és klasszikus balett tánc-szekvenciák generálása Markov-láncok segítségével
