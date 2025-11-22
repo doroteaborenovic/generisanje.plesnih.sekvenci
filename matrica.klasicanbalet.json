@@ -1,16 +1,16 @@
 {
   "alasekondumestu": {
     "glisatsapovlacenjem": 0.05,
-    "grandplie": 0.05,
+    "grandplie": 0.04,
     "pripremazapiruetu": 0.1
   },
   "fuetesakrajem": {
     "alasekondumestu": 0.1,
     "glisatsapovlacenjem": 0.1,
     "padesa": 0.1,
-    "grandplie": 0.1,
+    "grandplie": 0.2,
     "okretizcoska": 0.1,
-    "turljanukrug": 0.1,
+    "turljanukrug": 0.2,
     "pripremazapiruetu ": 0.2
   },
   "pripremazapiruetu": {
