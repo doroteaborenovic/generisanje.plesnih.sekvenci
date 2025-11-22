@@ -23,18 +23,17 @@
     "alasekondumestu": 0.1,
     "fuetesakrajem": 0.1,
     "okretizcoska": 0.1,
-    "turljanukrug": 0.1,
     "pripremazapiruetu ": 0.1,
     "grandplie": 0.1,
-    "batman": 0.2,
+    "batman": 0.3,
     "asomble": 0.2
   },
   "grandplie": {
-    "asomble": 0.25,
-    "batman": 0.25,
-    "pripremazapiruetu": 0.25,
-    "glisatsapovlacenjem": 0.25,
-    "okretizcoska": 0.25
+    "asomble": 0.2,
+    "batman": 0.3,
+    "pripremazapiruetu": 0.3,
+    "glisatsapovlacenjem": 0.1,
+    "okretizcoska": 0.1
   },
   "batman": {
     "grandplie": 0.25,
