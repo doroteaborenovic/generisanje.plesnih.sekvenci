@@ -1,4 +1,3 @@
-# gen_final_spline.py - Finalna verzija sa dugim i naglašenim tranzicijama
 
 import os
 import json
@@ -8,10 +7,9 @@ import pickle
 from moviepy.editor import VideoFileClip, concatenate_videoclips, vfx 
 import pygame
 
-# --- PODEŠAVANJA TRANZICIJA (Značajno produženo trajanje) ---
-TRANSITION_FRAMES = 15     # Drastično povećano sa 60 na 120 za dužu i sporiju tranziciju
-BLEND_WINDOW = 3       # Ostaje na 10, što je odlično za procenu brzine
-TRANSITION_DURATION_S = 0.5  # USKLAĐENO sa brojem frejmova (120 frejmova / 50 fps = 2.4s)
+TRANSITION_FRAMES = 15     
+BLEND_WINDOW = 3       
+TRANSITION_DURATION_S = 0.5  
 
 markov_path = "data/markov_matrica1.json"
 
@@ -46,7 +44,6 @@ def get_next_index_for_prefix(directory, prefix):
 
 index_n = get_next_index_for_prefix(output_combined_folder, output_base_name_json)
 
-# --- NAPREDNA FUNKCIJA ZA TRANZICIJE (Catmull-Rom Spline) ---
 def generate_spline_transition(p0, p1, p2, p3, num_frames):
     p0, p1, p2, p3 = map(np.array, [p0, p1, p2, p3])
     transition_frames = []
@@ -61,7 +58,6 @@ def generate_spline_transition(p0, p1, p2, p3, num_frames):
         transition_frames.append(frame.tolist())
     return transition_frames
 
-# --- NOVA FUNKCIJA ZA FINALNO POLIRANJE TRANZICIJE ---
 def polish_transition(frames, window=5):
     """Primenjuje težinski pokretni prosek na frejmove tranzicije za C2 glatkoću."""
     if window < 3 or window % 2 == 0: return frames
@@ -79,11 +75,9 @@ def polish_transition(frames, window=5):
         
     return polished.tolist()
 
-# --- UNAPREĐENO SPAJANJE KEYPOINTS-OVA SA POLIRANJEM ---
 all_keypoints = []
 print("\n--- Spajam keypoints sa dugim i 'ispoliranim' tranzicijama ---")
 
-# 1. Učitaj sve potrebne klipove u memoriju
 loaded_clips = []
 for pokret in sekvenca:
     fpath = os.path.join(folder_json_2d, pokret + ".json")
@@ -105,7 +99,6 @@ for pokret in sekvenca:
         else:
             print(f"[!] Pokret '{pokret}' je prekratak i biće preskočen.")
 
-# 2. Spoji učitane klipove
 for i, current_clip in enumerate(loaded_clips):
     if i == 0:
         all_keypoints.extend(current_clip)
