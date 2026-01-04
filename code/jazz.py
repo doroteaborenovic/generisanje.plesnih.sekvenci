@@ -6,7 +6,7 @@ import numpy as np
 import pickle
 from moviepy.editor import VideoFileClip, concatenate_videoclips, vfx 
 import pygame
-
+#ovo je pravi NE DIRAJ DOROTEA
 TRANSITION_FRAMES = 120      
 BLEND_WINDOW = 10            
 TRANSITION_DURATION_S = 2.4  
